@@ -60,7 +60,7 @@ public class Consola {
         int opcion;
 
         do {
-            System.out.print("Elige una orientación");
+            System.out.print("Elige una orientación: ");
             opcion = Entrada.entero();
         } while (opcion < 1 || opcion > 8);
 
@@ -93,6 +93,7 @@ public class Consola {
         char comando;
         System.out.print("Dime que comando quieres usar: ");
         comando = Entrada.caracter();
+
         return comando;
     }
 
